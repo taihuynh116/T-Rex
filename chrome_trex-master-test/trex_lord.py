@@ -149,7 +149,6 @@ def evolve():
     curr_gen = adam_eva.copy()
     count_gen = 0
 
-    state_mouseclick = win32api.GetKeyState(0x04)
     while True:
         log1.info("-------------------------------------------------------")
         log2.info("-------------------------------------------------------")
